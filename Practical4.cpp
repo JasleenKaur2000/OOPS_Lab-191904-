@@ -8,11 +8,12 @@ int main()
 {
     float a,d1,d2;
     int b;
-    cin>>a>>b;
+    cin>>"Enter base value: ">>a>>;
+    cin>>"Enter exponent value: ">>b;
     d1=power(a,b);
     d2=power(a);
-    display(d1);
-    display(d2);
+    cout<<"Result for power function with exponent provided as argument: "<<display(d1);
+    cout<<"Result for power function with exponent provided as default argument: "<<display(d2);
     return 0;
 } 
 float power(float a, int b){
