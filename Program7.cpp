@@ -1,3 +1,4 @@
+//Wap to create a Time class and friend function to add two times
 #include<iostream>
 using namespace std;
 
