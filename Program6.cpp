@@ -22,14 +22,7 @@ public:
         for(i=0;A[i]!='\0';i++);
         return i;
     }
-    void reverse(){
-        int i=length();
-        char t;
-        for(int k=0,j=i-1;k<j;k++,j--){
-            t=A[j];A[j]=A[k];A[k]=t;
-        }
-        
-    }
+  
     bool equate(MyString &B){
         int i=0;
         for(i=0;A[i]!='\0';i++){
