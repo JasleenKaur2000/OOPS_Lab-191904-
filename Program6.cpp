@@ -1,3 +1,4 @@
+//WAP to create a string class to store, add, equate and display strings.
 #include<iostream>
 using namespace std;
 const int MAX=20;
