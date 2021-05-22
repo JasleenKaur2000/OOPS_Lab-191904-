@@ -15,7 +15,7 @@ class Complex{
         this->img=img;
     }
     Complex(int real){   // (B)to demostrate constructor overloading
-        cout<<"Parameterized construction with one argument called"<<endl;
+        cout<<"Parameterized constructor with one argument called"<<endl;
         this->real=real;
         this->img=0;
     }
