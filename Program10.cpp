@@ -13,7 +13,7 @@ public:
         return this->money_from_dad;
     }
     void get_money_from_dad(){
-        cout<<"Enter Pocket Money recieved from dad:";
+        cout<<"Enter Pocket Money receieved from dad:";
         cin>>this->money_from_dad;
     }
     void displayMoney_from_dad(){
@@ -33,7 +33,7 @@ public:
         return this->money_from_mom;
     }
     void get_money_from_mom(){
-        cout<<"Enter Pocket Money recieved from mom:";
+        cout<<"Enter Pocket Money receieved from mom:";
         cin>>this->money_from_mom;
     }
     void displayMoney_from_mom(){
